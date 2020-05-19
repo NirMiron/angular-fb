@@ -11,6 +11,8 @@ import { ProductDetailsComponent } from './product-details/product-details.compo
 import { CartService } from './cart.service';
 import { CartComponent } from './cart/cart.component';
 
+import { HttpClientModule } from '@angular/common/http';
+
 @NgModule({
   imports: [
     BrowserModule,
@@ -24,6 +26,7 @@ import { CartComponent } from './cart/cart.component';
   declarations: [
     AppComponent,
     TopBarComponent,
+    HttpClientModule,
     ProductListComponent,
     ProductAlertsComponent,
     ProductDetailsComponent,
