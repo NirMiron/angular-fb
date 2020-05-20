@@ -23,7 +23,7 @@ constructor(
     return this.items;
   }
 
-   getShippingPrices() {
+  public getShippingPrices() {
     return this.http.get('/assets/shipping.json');
   }
 }
